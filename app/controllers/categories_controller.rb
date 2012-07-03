@@ -3,8 +3,6 @@ class CategoriesController < ApplicationController
   # GET /categories.json
   def index
     @categories = Category.all
-
-
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @categories }
@@ -27,7 +25,8 @@ class CategoriesController < ApplicationController
   # GET /categories/new.json
   def new
     @category = Category.new
-
+    @parents = Category.all  
+    
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @category }

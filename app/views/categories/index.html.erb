@@ -1,6 +1,6 @@
 <h1>Listing categories</h1>
 
-<table>
+<table border=1 cellpadding=4>
   <tr>
     <th> id </th>
     <th>Name</th>
@@ -13,11 +13,12 @@
 <% @categories.each do |category| %>
   <tr>
     <td><%= category.id %></td>
-    <td><%= category.name %></td>
-
-    <% k = (@categories.select{ |i| (i.id) == category.parent_id }) %>
-    <td> <%= k[0].name unless  k.empty?  %>  </td> 
     
+    <td align='center'><%= category.name %></td>
+    <% category_parent = (@categories.select{ |i| (i.id) == category.parent_id }) %>
+    
+    <td align='center'> <%= category_parent[0].name unless  category_parent .empty? %></td> 
+   
     <td><%= link_to 'Show', category %></td>
     <td><%= link_to 'Edit', edit_category_path(category) %></td>
     <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
