@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Sum:</b>
+  <%= @price.sum %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @price.category_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_price_path(@price) %> |
+<%= link_to 'Back', prices_path %>
