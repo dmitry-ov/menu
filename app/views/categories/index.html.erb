@@ -1,0 +1,30 @@
+<h1>Listing categories</h1>
+
+<table>
+  <tr>
+    <th> id </th>
+    <th>Name</th>
+    <th>Parent</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @categories.each do |category| %>
+  <tr>
+    <td><%= category.id %></td>
+    <td><%= category.name %></td>
+
+    <% k = (@categories.select{ |i| (i.id) == category.parent_id }) %>
+    <td> <%= k[0].name unless  k.empty?  %>  </td> 
+    
+    <td><%= link_to 'Show', category %></td>
+    <td><%= link_to 'Edit', edit_category_path(category) %></td>
+    <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Category', new_category_path %>
