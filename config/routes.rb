@@ -1,4 +1,6 @@
 Menu::Application.routes.draw do
+  resources :prices
+
   resources :categories
 
   # The priority is based upon order of creation:
