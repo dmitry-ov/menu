@@ -1,6 +1,6 @@
 <h1>Listing prices</h1>
 
-<table>
+<table border=1 cellpadding = 4 >
   <tr>
     <th>Sum</th>
     <th>Category</th>
@@ -11,8 +11,8 @@
 
 <% @prices.each do |price| %>
   <tr>
-    <td><%= price.sum %></td>
-    <td><%= price.category_id %></td>
+    <td align='center'><%= price.category.name %></td>
+    <td align='center'><%= price.sum %></td>
     <td><%= link_to 'Show', price %></td>
     <td><%= link_to 'Edit', edit_price_path(price) %></td>
     <td><%= link_to 'Destroy', price, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -20,6 +20,7 @@
 <% end %>
 </table>
 
-<br />
+
 
 <%= link_to 'New Price', new_price_path %>
+<%= link_to 'Category List', categories_path %>

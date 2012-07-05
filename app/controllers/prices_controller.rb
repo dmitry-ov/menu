@@ -14,7 +14,6 @@ class PricesController < ApplicationController
   # GET /prices/1.json
   def show
     @price = Price.find(params[:id])
-
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @price }
