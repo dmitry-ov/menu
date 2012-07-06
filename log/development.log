@@ -24136,3 +24136,1452 @@ Served asset /prices.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 88.86.76.206 at 2012-07-05 10:51:48 +0400
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 10.8.0.10 at 2012-07-05 12:00:17 +0400
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (1ms)
+
+
+Started GET "/categories/" for 10.8.0.10 at 2012-07-05 12:00:24 +0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.1ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (6.9ms)
+Compiled jquery.js  (1ms)  (pid 2790)
+Compiled jquery_ujs.js  (0ms)  (pid 2790)
+Compiled application.js  (29ms)  (pid 2790)
+Completed 200 OK in 164ms (Views: 107.6ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 12:00:34 +0400
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 12:00:34 +0400
+Served asset /categories.css - 200 OK (4ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 12:00:34 +0400
+Served asset /prices.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 12:00:39 +0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-05 12:00:39 +0400
+Served asset /prices.js - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 12:00:40 +0400
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 12:00:40 +0400
+Served asset /application.js - 200 OK (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 12:00:45 +0400
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 12:00:45 +0400
+Served asset /categories.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 12:00:49 +0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 12:00:50 +0400
+Served asset /categories.js - 200 OK (0ms)
+
+
+Started GET "/categories/" for 10.8.0.10 at 2012-07-05 12:01:27 +0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.4ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 17ms (Views: 12.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 12:01:37 +0400
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 12:01:37 +0400
+Served asset /categories.css - 200 OK (0ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 12:01:42 +0400
+Served asset /prices.css - 200 OK (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 12:01:42 +0400
+Served asset /categories.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 12:01:42 +0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-05 12:01:42 +0400
+Served asset /prices.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 12:01:47 +0400
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 12:01:47 +0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 12:01:52 +0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 12:01:53 +0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 12:02:03 +0400
+Served asset /application.js - 200 OK (1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/prices/" for 10.8.0.6 at 2012-07-05 17:32:39 +0400
+Processing by PricesController#index as */*
+  [1m[36mPrice Load (0.1ms)[0m  [1mSELECT "prices".* FROM "prices" [0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  Rendered prices/index.html.erb within layouts/application (95.8ms)
+Completed 200 OK in 132ms (Views: 123.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/prices/1" for 10.8.0.6 at 2012-07-05 17:32:53 +0400
+Processing by PricesController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPrice Load (0.5ms)[0m  [1mSELECT "prices".* FROM "prices" WHERE "prices"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  Rendered prices/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 12ms (Views: 7.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/categories" for 10.8.0.6 at 2012-07-05 17:33:06 +0400
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.1ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/prices/1/edit" for 10.8.0.6 at 2012-07-05 17:33:30 +0400
+Processing by PricesController#edit as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPrice Load (0.3ms)[0m  [1mSELECT "prices".* FROM "prices" WHERE "prices"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered prices/_form.html.erb (9.2ms)
+  Rendered prices/edit.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 34ms (Views: 30.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/prices" for 10.8.0.6 at 2012-07-05 17:33:46 +0400
+Processing by PricesController#index as */*
+  [1m[35mPrice Load (0.2ms)[0m  SELECT "prices".* FROM "prices" 
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1[0m
+  Rendered prices/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/categories/1/edit" for 10.8.0.6 at 2012-07-05 17:35:01 +0400
+Processing by CategoriesController#edit as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered categories/_form.html.erb (3.2ms)
+  Rendered categories/edit.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/categories/2" for 10.8.0.6 at 2012-07-05 17:35:04 +0400
+Processing by CategoriesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mCategory Load (12.4ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered categories/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 25ms (Views: 10.1ms | ActiveRecord: 12.5ms)
+
+
+Started GET "/categories/2/edit" for 10.8.0.6 at 2012-07-05 17:38:59 +0400
+Processing by CategoriesController#edit as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered categories/_form.html.erb (2.7ms)
+  Rendered categories/edit.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/categories/new" for 10.8.0.6 at 2012-07-05 17:39:18 +0400
+Processing by CategoriesController#new as */*
+  [1m[35mCategory Load (0.4ms)[0m  SELECT "categories".* FROM "categories" 
+  Rendered categories/_form.html.erb (2.2ms)
+  Rendered categories/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 36ms (Views: 32.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/rails.png" for 10.8.0.10 at 2012-07-05 17:50:22 +0400
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/categories/" for 10.8.0.10 at 2012-07-05 17:50:38 +0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.1ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 137ms (Views: 78.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 17:50:49 +0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 17:50:49 +0400
+Served asset /categories.css - 200 OK (1ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 17:50:54 +0400
+Served asset /prices.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 17:50:54 +0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 17:50:54 +0400
+Served asset /scaffolds.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 17:50:54 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 17:50:59 +0400
+Served asset /categories.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 17:51:04 +0400
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-05 17:51:04 +0400
+Served asset /prices.js - 200 OK (3ms)
+
+
+Started GET "/categories/" for 10.8.0.10 at 2012-07-05 17:56:43 +0400
+Connecting to database specified by database.yml
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.1ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 110ms (Views: 55.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 17:56:59 +0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 17:56:59 +0400
+Served asset /categories.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 17:56:59 +0400
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 17:56:59 +0400
+Served asset /prices.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 17:56:59 +0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 17:56:59 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-05 17:57:14 +0400
+Served asset /prices.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 17:57:14 +0400
+Served asset /categories.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 17:57:14 +0400
+Served asset /application.js - 304 Not Modified (34ms)
+
+
+Started GET "/prices/" for 10.8.0.6 at 2012-07-05 17:57:38 +0400
+Processing by PricesController#index as */*
+  [1m[36mPrice Load (0.1ms)[0m  [1mSELECT "prices".* FROM "prices" [0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  Rendered prices/index.html.erb within layouts/application (45.5ms)
+Completed 200 OK in 53ms (Views: 51.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/categories" for 10.8.0.6 at 2012-07-05 17:58:40 +0400
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.3ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/rails.png" for 10.8.0.10 at 2012-07-05 18:07:32 +0400
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/categories/" for 10.8.0.10 at 2012-07-05 18:07:36 +0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.1ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 137ms (Views: 78.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/prices/" for 10.8.0.10 at 2012-07-05 18:07:53 +0400
+Processing by PricesController#index as HTML
+  [1m[36mPrice Load (0.2ms)[0m  [1mSELECT "prices".* FROM "prices" [0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  Rendered prices/index.html.erb within layouts/application (38.7ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 18:08:03 +0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 18:08:08 +0400
+Served asset /categories.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 18:08:09 +0400
+Served asset /prices.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 18:08:09 +0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 18:08:09 +0400
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 18:08:09 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/categories" for 10.8.0.10 at 2012-07-05 18:08:38 +0400
+Connecting to database specified by database.yml
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.1ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 130ms (Views: 56.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 18:08:49 +0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 18:08:54 +0400
+Served asset /categories.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 18:08:54 +0400
+Served asset /jquery.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 18:08:54 +0400
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 18:08:54 +0400
+Served asset /prices.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 18:08:54 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 18:09:04 +0400
+Served asset /categories.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-05 18:09:09 +0400
+Served asset /prices.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 18:09:09 +0400
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/categories" for 10.8.0.10 at 2012-07-05 18:12:04 +0400
+Connecting to database specified by database.yml
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.1ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 130ms (Views: 56.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 18:12:20 +0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 18:12:20 +0400
+Served asset /prices.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 18:12:20 +0400
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 18:12:20 +0400
+Served asset /categories.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 18:12:20 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 18:12:20 +0400
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 18:12:35 +0400
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 18:12:35 +0400
+Served asset /categories.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-05 18:12:35 +0400
+Served asset /prices.js - 304 Not Modified (4ms)
+
+
+Started GET "/prices" for 10.8.0.10 at 2012-07-05 18:12:55 +0400
+Processing by PricesController#index as HTML
+  [1m[36mPrice Load (0.2ms)[0m  [1mSELECT "prices".* FROM "prices" [0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  Rendered prices/index.html.erb within layouts/application (47.4ms)
+Completed 200 OK in 76ms (Views: 74.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 18:13:05 +0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 18:13:10 +0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 18:13:10 +0400
+Served asset /prices.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 18:13:10 +0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 18:13:10 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 18:13:10 +0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 18:13:20 +0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-05 18:13:25 +0400
+Served asset /prices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 18:13:25 +0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 10.8.0.10 at 2012-07-05 18:21:34 +0400
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dmitry/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/assets/rails.png" for 10.8.0.10 at 2012-07-05 18:21:46 +0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dmitry/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/assets/rails.png" for 10.8.0.10 at 2012-07-05 18:22:07 +0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dmitry/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/categories" for 10.8.0.10 at 2012-07-05 18:22:24 +0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.1ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 82ms (Views: 6.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/stylesheets/application.css" for 10.8.0.10 at 2012-07-05 18:22:34 +0400
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dmitry/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/application.js" for 10.8.0.10 at 2012-07-05 18:22:39 +0400
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/dmitry/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/dmitry/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/rails.png" for 10.8.0.10 at 2012-07-05 18:25:00 +0400
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.6) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.6) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.6) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.6) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/dmitry/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.8ms)
+
+
+Started GET "/assets/rails.png" for 10.8.0.10 at 2012-07-05 18:25:02 +0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.6) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.6) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.6) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.6) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/dmitry/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/categories" for 10.8.0.10 at 2012-07-05 18:25:11 +0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.1ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 82ms (Views: 6.0ms | ActiveRecord: 23.4ms)
+
+
+Started GET "/stylesheets/application.css" for 10.8.0.10 at 2012-07-05 18:25:11 +0400
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.6) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.6) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.6) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.6) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/dmitry/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/application.js" for 10.8.0.10 at 2012-07-05 18:25:11 +0400
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.6) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.6) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.6) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.6) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/dmitry/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/categories" for 10.8.0.10 at 2012-07-05 18:25:14 +0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.3ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 6.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stylesheets/application.css" for 10.8.0.10 at 2012-07-05 18:25:14 +0400
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.6) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.6) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.6) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.6) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/dmitry/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/javascripts/application.js" for 10.8.0.10 at 2012-07-05 18:25:14 +0400
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.6) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.6) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.6) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.6) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /home/dmitry/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/categories" for 10.8.0.10 at 2012-07-05 18:25:50 +0400
+Connecting to database specified by database.yml
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.1ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 132ms (Views: 56.2ms | ActiveRecord: 23.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 18:25:51 +0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 18:25:51 +0400
+Served asset /categories.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 18:25:51 +0400
+Served asset /prices.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 18:25:51 +0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 18:25:51 +0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 18:25:51 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 18:25:51 +0400
+Served asset /categories.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-05 18:25:51 +0400
+Served asset /prices.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 18:25:51 +0400
+Served asset /application.js - 304 Not Modified (31ms)
+
+
+Started GET "/prices" for 10.8.0.10 at 2012-07-05 18:25:59 +0400
+Processing by PricesController#index as HTML
+  [1m[36mPrice Load (0.2ms)[0m  [1mSELECT "prices".* FROM "prices" [0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  Rendered prices/index.html.erb within layouts/application (41.3ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:00 +0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:00 +0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:00 +0400
+Served asset /prices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:00 +0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:00 +0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:00 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:00 +0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:00 +0400
+Served asset /prices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:00 +0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/categories" for 10.8.0.10 at 2012-07-05 18:26:03 +0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.3ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 12ms (Views: 8.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:03 +0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:03 +0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:03 +0400
+Served asset /prices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:03 +0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:03 +0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:03 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:03 +0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:03 +0400
+Served asset /prices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:03 +0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/prices" for 10.8.0.10 at 2012-07-05 18:26:04 +0400
+Processing by PricesController#index as HTML
+  [1m[36mPrice Load (0.4ms)[0m  [1mSELECT "prices".* FROM "prices" [0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  Rendered prices/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:04 +0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:04 +0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:04 +0400
+Served asset /prices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:04 +0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:04 +0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:04 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:04 +0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:04 +0400
+Served asset /prices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:04 +0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/prices" for 10.8.0.10 at 2012-07-05 18:26:53 +0400
+Connecting to database specified by database.yml
+Processing by PricesController#index as HTML
+  [1m[36mPrice Load (0.1ms)[0m  [1mSELECT "prices".* FROM "prices" [0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  Rendered prices/index.html.erb within layouts/application (72.6ms)
+Completed 200 OK in 167ms (Views: 122.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:54 +0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:54 +0400
+Served asset /categories.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:54 +0400
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-05 18:26:54 +0400
+Served asset /prices.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:54 +0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:54 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:54 +0400
+Served asset /categories.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:54 +0400
+Served asset /prices.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-05 18:26:54 +0400
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rails.png" for 10.8.0.10 at 2012-07-06 10:23:43 +0400
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (2ms)
+
+
+Started GET "/categories" for 10.8.0.10 at 2012-07-06 10:24:09 +0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.1ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 207ms (Views: 120.1ms | ActiveRecord: 11.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-06 10:24:09 +0400
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-06 10:24:09 +0400
+Served asset /categories.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-06 10:24:09 +0400
+Served asset /prices.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-06 10:24:09 +0400
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:09 +0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:09 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:09 +0400
+Served asset /categories.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:09 +0400
+Served asset /prices.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:09 +0400
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/prices" for 10.8.0.10 at 2012-07-06 10:24:32 +0400
+Processing by PricesController#index as HTML
+  [1m[36mPrice Load (0.2ms)[0m  [1mSELECT "prices".* FROM "prices" [0m
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  Rendered prices/index.html.erb within layouts/application (48.9ms)
+Completed 200 OK in 78ms (Views: 76.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-06 10:24:32 +0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:32 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-06 10:24:32 +0400
+Served asset /prices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-06 10:24:32 +0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-06 10:24:32 +0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:32 +0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:32 +0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:32 +0400
+Served asset /prices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:32 +0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/categories" for 10.8.0.10 at 2012-07-06 10:24:34 +0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.3ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 12ms (Views: 7.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-06 10:24:34 +0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-06 10:24:34 +0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-06 10:24:34 +0400
+Served asset /prices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-06 10:24:34 +0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:34 +0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:34 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:35 +0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:35 +0400
+Served asset /prices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-06 10:24:35 +0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/prices" for 10.8.0.10 at 2012-07-06 10:48:31 +0400
+Processing by PricesController#index as HTML
+  [1m[36mPrice Load (0.1ms)[0m  [1mSELECT "prices".* FROM "prices" [0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  Rendered prices/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-06 10:48:31 +0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-06 10:48:31 +0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-06 10:48:31 +0400
+Served asset /prices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-06 10:48:31 +0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-06 10:48:31 +0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-06 10:48:31 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-06 10:48:31 +0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-06 10:48:31 +0400
+Served asset /prices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-06 10:48:31 +0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/categories/" for 10.8.0.10 at 2012-07-06 14:07:14 +0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.4ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.3ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:15 +0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:15 +0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:15 +0400
+Served asset /prices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:15 +0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:15 +0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:15 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:15 +0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:15 +0400
+Served asset /prices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:15 +0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/prices" for 10.8.0.10 at 2012-07-06 14:07:17 +0400
+Processing by PricesController#index as HTML
+  [1m[36mPrice Load (0.1ms)[0m  [1mSELECT "prices".* FROM "prices" [0m
+  [1m[35mCategory Load (0.1ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  Rendered prices/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:17 +0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:17 +0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:17 +0400
+Served asset /prices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:17 +0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:17 +0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:17 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:17 +0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:17 +0400
+Served asset /prices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:17 +0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/categories" for 10.8.0.10 at 2012-07-06 14:07:19 +0400
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.3ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  [1m[35mPrice Load (0.1ms)[0m  SELECT "prices".* FROM "prices" 
+  Rendered categories/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:19 +0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:19 +0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:19 +0400
+Served asset /prices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:19 +0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:19 +0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:19 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:19 +0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:19 +0400
+Served asset /prices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:19 +0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/prices" for 10.8.0.10 at 2012-07-06 14:07:20 +0400
+Processing by PricesController#index as HTML
+  [1m[36mPrice Load (0.3ms)[0m  [1mSELECT "prices".* FROM "prices" [0m
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 2 LIMIT 1
+  Rendered prices/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 20ms (Views: 17.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:21 +0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:21 +0400
+Served asset /categories.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:21 +0400
+Served asset /prices.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.8.0.10 at 2012-07-06 14:07:21 +0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:21 +0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:21 +0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:21 +0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prices.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:21 +0400
+Served asset /prices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 10.8.0.10 at 2012-07-06 14:07:21 +0400
+Served asset /application.js - 304 Not Modified (1ms)

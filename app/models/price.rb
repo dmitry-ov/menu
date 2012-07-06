@@ -1,14 +1,9 @@
 class Price < ActiveRecord::Base
- 
-  belongs_to :category
-
-
-# Присутствует родитель.
-# Цена больше 0
-#        
-# 
-# 
-#
-  # validate
   attr_accessible :category_id, :sum
+
+  belongs_to :category
+  
+  validates :sum, :presence => true 
+  validates :category_id , :presence => true 
+
 end
