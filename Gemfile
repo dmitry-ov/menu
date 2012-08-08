@@ -2,6 +2,20 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
 
+
+
+
+group :test do
+ gem 'rspec-rails'
+ gem 'autotest'
+ gem 'spork', '~> 0.9.0.rc8'
+ gem 'test_notifier'
+ gem 'database_cleaner'
+end
+
+
+
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 

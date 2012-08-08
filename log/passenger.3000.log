@@ -1,0 +1,14 @@
+2012/08/05 22:29:03 [alert] 14093#0: accept4() failed (38: Function not implemented)
+2012/08/05 22:29:05 [error] 14093#0: *4 "/root/src/menu/public/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+2012/08/06 23:48:34 [alert] 14073#0: accept4() failed (38: Function not implemented)
+2012/08/06 23:48:37 [error] 14073#0: *4 "/root/src/menu/public/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+2012/08/06 23:52:32 [alert] 22439#0: accept4() failed (38: Function not implemented)
+2012/08/06 23:52:34 [error] 22439#0: *4 "/root/src/menu/public/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+2012/08/06 23:52:41 [error] 22439#0: *5 "/root/src/menu/public/categories/index.html" is forbidden (13: Permission denied), client: 78.25.134.7, server: _, request: "GET /categories/ HTTP/1.1", host: "81.176.229.201:3000"
+2012/08/06 23:52:42 [error] 22439#0: *5 open() "/root/src/menu/public/favicon.ico" failed (13: Permission denied), client: 78.25.134.7, server: _, request: "GET /favicon.ico HTTP/1.1", host: "81.176.229.201:3000"
+2012/08/06 23:56:00 [alert] 17745#0: accept4() failed (38: Function not implemented)
+2012/08/06 23:56:02 [error] 17745#0: *4 "/root/src/menu/public/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+2012/08/06 23:56:20 [error] 17745#0: *5 "/root/src/menu/public/index.html" is forbidden (13: Permission denied), client: 78.25.134.7, server: _, request: "GET / HTTP/1.1", host: "81.176.229.201:3000"
+2012/08/06 23:56:23 [error] 17745#0: *5 "/root/src/menu/public/index.html" is forbidden (13: Permission denied), client: 78.25.134.7, server: _, request: "GET / HTTP/1.1", host: "81.176.229.201:3000"
+2012/08/08 17:52:53 [alert] 13978#0: accept4() failed (38: Function not implemented)
+2012/08/08 17:52:54 [error] 13978#0: *4 "/root/src/menu/public/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"

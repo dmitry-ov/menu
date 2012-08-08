@@ -14,7 +14,7 @@ class CategoriesController < ApplicationController
   # GET /categories/1.json
   def show
     @category = Category.find(params[:id])
-    @parent = Category.find(@category.parent_id)
+    @parent = Category.find(@category.parent_id) if @category.parent_id?
 
     respond_to do |format|
       format.html # show.html.erb
