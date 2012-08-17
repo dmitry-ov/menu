@@ -5,11 +5,10 @@ class CategoriesController < ApplicationController
   # GET /categories.json
   def index
     @categories = Category.all
-    @prices = Price.all
+    #@prices = Price.all
 
     @advice = AdviceMe.random.text
-   
-    @advice = @advice.gsub("nbsp;","").gsub('&',"")
+    @advice = @advice.gsub("nbsp;","").gsub('&',"").gsub("#151;","")
 
     respond_to do |format|
       format.html # index.html.erb
@@ -44,6 +43,11 @@ class CategoriesController < ApplicationController
   # GET /categories/1/edit
   def edit
     @category = Category.find(params[:id])
+      
+    @parents = [] 
+    Category.all.each do |c|
+      @parents << [c.name, c.id] 
+    end  
   end
 
   # POST /categories
