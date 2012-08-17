@@ -49,6 +49,7 @@ GEM
     eventmachine (0.12.10)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    fucking-great-advice (0.1.0)
     hike (1.2.1)
     i18n (0.6.0)
     journey (1.0.4)
@@ -142,6 +143,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   database_cleaner
   execjs
+  fucking-great-advice
   jquery-rails
   rails (= 3.2.6)
   rspec-rails

@@ -24,6 +24,8 @@ gem 'execjs'
 gem 'acts_as_tree'
 gem 'activesupport'
 gem 'thin'
+gem 'fucking-great-advice'
+
 
 # Gems used only for assets and not required
 # in production environments by default.

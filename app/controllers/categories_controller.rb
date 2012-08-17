@@ -1,9 +1,16 @@
+require 'advice_me'
+
 class CategoriesController < ApplicationController
   # GET /categories
   # GET /categories.json
   def index
     @categories = Category.all
     @prices = Price.all
+
+    @advice = AdviceMe.random.text
+   
+    @advice = @advice.gsub("nbsp;","").gsub('&',"")
+
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @categories }
