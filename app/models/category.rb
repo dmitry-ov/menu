@@ -9,7 +9,7 @@ class Category < ActiveRecord::Base
  # validates_inclusion_of :parent_id, :in => , 
  #    :message => "%{value} is not a valid size"
 
-  validates_numericality_of :parent_id, :greater_than => 0
+  validates_numericality_of :parent_id, :greater_than => -1 
 
 
 end

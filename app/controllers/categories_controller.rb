@@ -32,8 +32,11 @@ class CategoriesController < ApplicationController
   # GET /categories/new.json
   def new
     @category = Category.new
-    @parents = Category.all  
-    
+   
+    @parents = [] 
+    Category.all.each {|c|   @parents << [c.name, c.id]  }
+    @parents << [ "No parent category", 0 ]
+
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @category }
@@ -43,11 +46,10 @@ class CategoriesController < ApplicationController
   # GET /categories/1/edit
   def edit
     @category = Category.find(params[:id])
-      
+     
     @parents = [] 
-    Category.all.each do |c|
-      @parents << [c.name, c.id] 
-    end  
+    Category.all.each { |c|  @parents << [c.name, c.id] }
+    @parents << [ "No parent category", 0 ]
   end
 
   # POST /categories
